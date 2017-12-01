@@ -1,0 +1,14 @@
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\bin\Debug\Stress.exe.config
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\bin\Debug\Stress.exe
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\bin\Debug\Stress.pdb
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\bin\Debug\EntityFramework.dll
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\bin\Debug\EntityFramework.xml
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\bin\Debug\de\EntityFramework.resources.dll
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\obj\Debug\Stress.csprojResolveAssemblyReference.cache
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\obj\Debug\Stress.Form1.resources
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\obj\Debug\Stress.Form2.resources
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\obj\Debug\Stress.Form3.resources
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\obj\Debug\Stress.Properties.Resources.resources
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\obj\Debug\Stress.csproj.GenerateResource.Cache
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\obj\Debug\Stress.exe
+C:\Users\marcel.riedmann\Source\Repos\Stress\Stress\Stress\obj\Debug\Stress.pdb

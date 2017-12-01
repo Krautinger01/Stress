@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StressModelStoreContainer" CdmEntityContainer="StressEntities">
+    <EntitySetMapping Name="Stress_Login">
+      <EntityTypeMapping TypeName="StressModel.Stress_Login">
+        <MappingFragment StoreEntitySet="Stress_Login">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stress_Manager">
+      <EntityTypeMapping TypeName="StressModel.Stress_Manager">
+        <MappingFragment StoreEntitySet="Stress_Manager">
+          <ScalarProperty Name="user" ColumnName="user" />
+          <ScalarProperty Name="application" ColumnName="application" />
+          <ScalarProperty Name="username_mail" ColumnName="username/mail" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

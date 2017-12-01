@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StressModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Während der Generierung sind Fehler aufgetreten:
+Warnung 6002: Für Tabelle/Sicht 'def.team10.Stress_Login' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+  <EntityType Name="Stress_Login">
+    <Key>
+      <PropertyRef Name="username" />
+      <PropertyRef Name="password" />
+    </Key>
+    <Property Name="username" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="text" Nullable="false" />
+  </EntityType>
+  <!--Während der Generierung sind Fehler aufgetreten:
+Warnung 6002: Für Tabelle/Sicht 'def.team10.Stress_Manager' ist kein Primärschlüssel definiert. Der Schlüssel wurde abgeleitet, und die Definition wurde als schreibgeschützte Tabelle/Sicht erstellt.-->
+  <EntityType Name="Stress_Manager">
+    <Key>
+      <PropertyRef Name="user" />
+      <PropertyRef Name="application" />
+      <PropertyRef Name="username/mail" />
+      <PropertyRef Name="password" />
+    </Key>
+    <Property Name="user" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="application" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="username/mail" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="password" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="StressModelStoreContainer">
+    <EntitySet Name="Stress_Login" EntityType="Self.Stress_Login" store:Type="Tables" store:Schema="team10">
+      <DefiningQuery>SELECT
+`Stress_Login`.`username`, 
+`Stress_Login`.`password`
+FROM `Stress_Login` AS `Stress_Login`</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Stress_Manager" EntityType="Self.Stress_Manager" store:Type="Tables" store:Schema="team10">
+      <DefiningQuery>SELECT
+`Stress_Manager`.`user`, 
+`Stress_Manager`.`application`, 
+`Stress_Manager`.`username/mail`, 
+`Stress_Manager`.`password`
+FROM `Stress_Manager` AS `Stress_Manager`</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
