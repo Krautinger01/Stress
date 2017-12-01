@@ -39,7 +39,7 @@
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(113, 140);
+            this.button1.Location = new System.Drawing.Point(146, 144);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -50,14 +50,14 @@
             // 
             this.txt_username.Location = new System.Drawing.Point(12, 53);
             this.txt_username.Name = "txt_username";
-            this.txt_username.Size = new System.Drawing.Size(176, 20);
+            this.txt_username.Size = new System.Drawing.Size(209, 20);
             this.txt_username.TabIndex = 1;
             // 
             // txt_pass
             // 
             this.txt_pass.Location = new System.Drawing.Point(12, 98);
             this.txt_pass.Name = "txt_pass";
-            this.txt_pass.Size = new System.Drawing.Size(176, 20);
+            this.txt_pass.Size = new System.Drawing.Size(209, 20);
             this.txt_pass.TabIndex = 2;
             this.txt_pass.UseSystemPasswordChar = true;
             // 
@@ -87,7 +87,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Stress.Properties.Resources.wall1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(259, 198);
+            this.ClientSize = new System.Drawing.Size(233, 179);
             this.Controls.Add(this.lbl_pass);
             this.Controls.Add(this.lbl_username);
             this.Controls.Add(this.txt_pass);
